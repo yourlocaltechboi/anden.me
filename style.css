@@ -1,0 +1,290 @@
+/*
+    Main Headline: findreplace
+    Sub Headline: zedou, mono45-headline, sans-serif
+    Section Headers: mono45-headline, monospace
+    Body: ivyepic
+*/
+:root::-webkit-scrollbar {
+    width: 0.75em;
+    background: transparent;
+}
+:root::-webkit-scrollbar-thumb {
+    background: #f1f3f540;
+    width: 10px;
+}
+:root::-webkit-scrollbar-thumb:hover{
+    background: #f1f3f5;
+}
+:root::-webkit-scrollbar :root::-webkit-scrollbar-thumb:hover{
+    width: 10px;
+}
+:root::-webkit-scrollbar-track {
+    background: #01030590;
+}
+:root::-webkit-scrollbar-button{
+    background-color: #f1f3f560;
+}
+:root::-webkit-scrollbar-button:hover{
+    background-color: #f1f3f5;
+}
+
+.cardsContainer::-webkit-scrollbar {
+    height: 5px;
+    width: 12px;
+    background: transparent;
+}
+.cardsContainer::-webkit-scrollbar-thumb {
+    background: #f1f3f540;
+    border-radius: 10px;
+}
+
+body{
+    margin: 0;
+    background-color: #1354;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#andenImage{
+    width: 100%;
+    height: 300px;
+    filter: brightness(0.85);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#andenImage img{
+    width: 100%;
+}
+#heroBackdrop{
+    width: 100%;
+    height: 200px;
+    background: url('img/webb-dark.png'), #333;
+    filter: invert(25%) brightness(50%);
+    user-select: none;
+    z-index: -1;
+    position: absolute;
+}
+#hero{
+    width: 100%;
+    height: 200px;
+    font-size: 1.5em;
+    font-family: findreplace;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #1354;
+}
+#heroName{
+    display: block;
+}
+#heroName h1{
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+#heroSubtitle h2{
+    font-family: zedou, mono45-headline, sans-serif;
+    font-size: 0.6em;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: #aaa
+}
+#heroSocials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.75em;
+}
+#heroSocials a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 0.25em;
+    border: 1px solid #fff3;
+    border-radius: 10px;
+    color: #fff8;
+    background-color: #f1f3f510;
+    text-decoration: none;
+}
+#heroSocials a:hover{
+    border-color: #fffa;
+    color: #fffa;
+    scale: 1.1;
+}
+#resumeBannerBackdrop{
+    width: 100%;
+    background: url('img/webb-dark.png'), #333;
+    filter: invert(25%) brightness(15%);
+    user-select: none;
+    z-index: -1;
+    position: absolute;
+}
+#resumeBanner{
+    display: flex;
+    align-items: center;
+    background-color: #1354;
+    padding: 1em;
+    height: 3em;
+    font-family: zedou, mono45-headline, sans-serif;
+    font-size: 1.25em;
+}
+#resumeBanner a{
+    color: #fff8;
+    text-decoration: dotted underline #fff3 auto;
+    text-underline-offset: 0.1em;
+    margin-left: 0.5em;
+}
+#resumeBanner a:hover{
+    color: #fff8;
+    text-decoration: dotted underline #fff8 auto;
+}
+main section#mainContent, footer{
+    padding: 1em;
+}
+main section#mainContent h1{
+    font-family: mono45-headline, monospace;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+    text-decoration-color: #fff3;
+    text-underline-offset: 0.15em;
+    color: #fff8;
+}
+main section#mainContent p{
+    font-family: ivyepic;
+    font-size: 1em;
+    font-weight: 100;
+}
+main section#mainContent section{
+    margin-top: 2em;
+}
+main section#mainContent .cardsContainer{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 15px;
+    overflow: auto;
+    padding: 15px 0 7.5px 0;
+    margin-bottom: 15px;
+}
+main .card{
+    width: 200px;
+    height: max-content;
+    background-color: #f1f3f510;
+    border-radius: 10px;
+    border: 1px solid #fff3;
+    padding: 0.5em;
+    position: relative;
+}
+main .card:hover{
+    border-color: #fff8;
+    background-color: #f1f3f530;
+    cursor: pointer;
+}
+main .card .cardImage img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    user-select: none;
+}
+main .card h2{
+    font-family: zedou, mono45-headline, sans-serif;
+    font-size: 1.25em;
+    margin: 0.5em 0 0em 0;
+    padding: 0;
+    font-weight: 500;
+    color: #fff8;
+}
+main .card p{
+    font-family: ivyepic;
+    font-size: 0.75em;
+    font-weight: 100;
+    color: #fff;
+}
+main .cardGroup a.actionButton{
+    display: block;
+    margin-top: 0.5em;
+    padding: 0.75em 0.5em;
+    border-radius: 10px;
+    border: 1px solid #fff3;
+    background-color: #f1f3f510;
+    color: #fff8;
+    text-decoration: none;
+    text-align: center;
+    font-family: zedou, mono45-headline, sans-serif;
+}
+main footer{
+    background-color: #01030540;
+}
+
+@media (min-width: 768px){
+    body{
+        flex-direction: row;
+    }
+    #andenImage{
+        min-width: 200px !important;
+        max-width: 500px;
+        height: 100%;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    #andenImage img{
+        height: 100vh;
+        width: auto;
+    }
+
+    main{
+        min-width: 568px;
+        width: 100%;
+    }
+    #hero h1{
+        font-size: 2em !important;
+        max-width: 768px;
+    }
+    #heroSubtitle h2{
+        font-size: 0.75em !important;
+        max-width: 768px;
+        font-weight: 300;
+    }
+    #resumeBanner{
+        padding: 1em calc(5% + 15px);
+    }
+    main section#mainContent{
+        margin-top: 15px;
+    }
+    main section#mainContent section{
+        margin: 2em 5%;
+    }
+    main footer *{
+        margin: auto 5%;
+    }
+}
+
+@media (min-width: 1068px){
+    #hero{
+        text-align: left;
+        align-items: flex-start;
+    }
+    #hero > *{
+        padding-left: calc(5% + 15px);
+    }
+    #heroSocials a{
+        margin: 0 0.5em 0 0; 
+    }
+}
