@@ -190,7 +190,7 @@ main .card{
     padding: 0.5em;
     position: relative;
 }
-main .card:hover{
+main .cardGroup .actionButton:hover{
     border-color: #fff8;
     background-color: #f1f3f530;
     cursor: pointer;
