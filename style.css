@@ -190,7 +190,7 @@ main .card{
     position: relative;
 }
 main .eduCard{
-    width: 325px;
+    width: 275px;
     height: max-content;
     background-color: #f1f3f510;
     border-radius: 10px;
