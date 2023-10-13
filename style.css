@@ -230,6 +230,16 @@ main .cardGroup a.actionButton{
 }
 main footer{
     background-color: #01030540;
+    font-family: ivyepic;
+}
+main footer p{
+    margin: 15px;
+}
+main footer a{
+    color: #fff8;
+    text-decoration: dotted underline #fff3 auto;
+    text-underline-offset: 0.1em;
+    margin: 0 !important;
 }
 
 @media (min-width: 768px){
@@ -271,8 +281,8 @@ main footer{
     main section#mainContent section{
         margin: 2em 5%;
     }
-    main footer *{
-        margin: auto 5%;
+    main footer p{
+        margin: 15px 5%;
     }
 }
 
