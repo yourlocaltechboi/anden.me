@@ -200,6 +200,7 @@ main .card .cardImage img{
     object-fit: cover;
     border-radius: 5px;
     user-select: none;
+    box-shadow: 2px 2px 5px #01030570;
 }
 main .card h2{
     font-family: zedou, mono45-headline, sans-serif;
