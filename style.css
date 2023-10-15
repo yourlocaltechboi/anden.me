@@ -170,6 +170,7 @@ main section#mainContent p{
 }
 main section#mainContent section{
     margin-top: 2em;
+    display: block;
 }
 main section#mainContent .cardsContainer{
     display: grid;
@@ -246,6 +247,28 @@ main .cardGroup a.actionButton{
     text-decoration: none;
     text-align: center;
     font-family: zedou, mono45-headline, sans-serif;
+}
+main .smallCardGroup{
+    display: inline-block;
+    margin-top: 15px;
+}
+main .smallCard{
+    display: block;
+    float: left;
+    background-color: #f1f3f510;
+    border-radius: 10px;
+    border: 1px solid #fff3;
+    margin: 0 7.5px 7.5px 0;
+    padding: 7.5px;
+}
+main .smallCard p{
+    padding: 0;
+    margin: 0;
+}
+main .smallCard p.contextSubhead{
+    text-transform: uppercase;
+    color: #f1f3f5;
+    font-family: mono45-headline, monospace !important;
 }
 main footer{
     background-color: #01030540;
